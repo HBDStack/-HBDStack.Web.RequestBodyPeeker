@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>HttpRequest Body Peeker in .Net Core</Title>
+    <Authors>Ali Alp</Authors>
+    <Description>A simple c# ASP.Net Core extension to read the HTTP request body without consuming it </Description>
+    <Copyright>@drunkcoding 2022</Copyright>
+    <PackageProjectUrl>https://github.com/baoduy/HBD.Web.RequestBodyPeeker</PackageProjectUrl>
+    <license>MIT</license>
+    <RepositoryUrl>https://github.com/baoduy/HBD.Web.RequestBodyPeeker</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>dotnet core  httpRequest body peek no cunsumption</PackageTags>
+    <PackageReleaseNotes>support generic parsin , async , sync </PackageReleaseNotes>
+    <PackageVersion>1.1.0</PackageVersion>
+    <LangVersion>default</LangVersion>
+    <Nullable>warnings</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="System.Text.Json" Version="6.0.5" />
+  </ItemGroup>
+
+</Project>
