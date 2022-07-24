@@ -7,9 +7,9 @@
     <Authors>Ali Alp</Authors>
     <Description>A simple c# ASP.Net Core extension to read the HTTP request body without consuming it </Description>
     <Copyright>@drunkcoding 2022</Copyright>
-    <PackageProjectUrl>https://github.com/baoduy/HBD.Web.RequestBodyPeeker</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/HBDStack/HBDStack.Web.BodyPeeker</PackageProjectUrl>
     <license>MIT</license>
-    <RepositoryUrl>https://github.com/baoduy/HBD.Web.RequestBodyPeeker</RepositoryUrl>
+    <RepositoryUrl>https://github.com/HBDStack/HBDStack.Web.BodyPeeker</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>dotnet core  httpRequest body peek no cunsumption</PackageTags>
     <PackageReleaseNotes>support generic parsin , async , sync </PackageReleaseNotes>
